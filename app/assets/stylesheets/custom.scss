@@ -60,17 +60,31 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
-  background-color: #008080;
+  font-style: italic;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #C0C0C0;
   text-decoration: none;
 }
 
 .navbar {
   background-color: #008080;
 }
+
+
+// ヘッダー右側リストの文字色変更出来ず
+
+.nav {
+  font-weight: bold;
+  font-style: italic;
+}
+
+// ↓これはダメ
+// .nav:hover {
+//   color: #C0C0C0;
+//   text-decoration: none;
+// }
 
 /* デバッグウインドウ */
 
